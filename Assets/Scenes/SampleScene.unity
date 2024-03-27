@@ -2832,6 +2832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e03205d9be427488c8f93c76b7a4a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MenuCanvas: {fileID: 0}
 --- !u!114 &1258896551
 MonoBehaviour:
   m_ObjectHideFlags: 0
