@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class customInputs : MonoBehaviour
 {
-
-    public void OnMenu() => Debug.Log("Menu");
+    [SerializeField] GameObject MenuCanvas;
+    public void OnMenu() => MenuCanvas.SetActive(!MenuCanvas.activeInHierarchy);
     
 }
